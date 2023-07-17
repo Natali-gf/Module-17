@@ -1,4 +1,4 @@
-import {checkValue} from './index.js';
+import {checkValue} from './function.js';
 
 describe('tests for checkValue function', () => {
     const even = '8';
