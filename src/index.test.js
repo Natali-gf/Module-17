@@ -1,8 +1,8 @@
 import {checkValue} from './index.js';
 
 describe('tests for checkValue function', () => {
-    const even = 8;
-    const odd = 5;
+    const even = '8';
+    const odd = '5';
 
     it('checkValue = even', () => {
       expect(checkValue(even)).toBe(`Вы ввели "${even}", это число четное`)
